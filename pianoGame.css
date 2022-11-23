@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.background{
+    display: flex;
+   width: 33%;
+    height: 80vh;
+background-image: url(https://img.pikbest.com/backgrounds/20180830/purple-inspiration-gundam-game-sci-fi-game-background-design-psd_2763410.jpg!bw700);
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+position: relative;
+margin: auto;
+margin-top: 5rem;
+}
+#sec1,#sec2,#sec3,#sec4{
+    width: 25%;
+    height: 90vh;
+    border: 1.5px solid white;
+    overflow: hidden;
+    position: relative;
+
+
+}
+.sco{
+    display: flex;
+justify-content: center;
+}
+#sec1 div{
+    width: 100%;
+    height: 18vh;
+    background-color: black;
+animation: anm 7s infinite; 
+position: absolute;  
+top: 5rem;
+}
+#sec2 div{
+    width: 100%;
+    height: 18vh;
+    background-color: black;
+animation: anm 5s infinite; 
+position: absolute;  
+top:10rem;
+}
+#sec3 div{
+    width: 100%;
+    height: 18vh;
+    background-color: black;
+animation: anm 7s infinite;   
+position: absolute;  
+top:8rem;
+}
+#sec4 div{
+    width: 100%;
+    height: 18vh;
+    background-color: black;
+animation: anm 10s infinite;
+position: absolute;  
+top:2rem;   
+}
+.sco{
+    position: relative;
+}
+#score{
+    width: 70%;
+    height: 10vh;
+position: absolute;
+left: 14rem;
+top: 2rem;
+font-size: 2rem;
+background-color: white;
+text-align: center;
+color: rgb(68, 68, 155);
+}
+#Over{
+    position: absolute;
+z-index: 1;
+    top: 21.5rem;
+    font-size: 2.8rem;
+   color: white;
+}
+#test{
+    height:15vh;
+    z-index: 1000;
+}
+
+
+
+@keyframes anm{
+
+    100%{
+        transform: translateY(37rem);
+    }
+}
+
+
+
+
+       
